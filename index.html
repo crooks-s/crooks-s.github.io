@@ -1,11 +1,38 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" dir="ltr">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sean's Portfolio</title>
+    <meta charset="utf-8" />
+    <meta http-equiv="x-ua-compatible" content="ie=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio Site</title>
+    <link href="https://fonts.googleapis.com/css?family=Merriweather:300,400,400i,700,800" rel="stylesheet" />
+    <link rel="stylesheet" href="./public/css/normalize.css" />
+    <link rel="stylesheet" href="./public/css/styles.css" />
 </head>
+
 <body>
-    <h1>Hello, world!</h1>
+    <div class="sidebar" id="my-info">
+        <div class="sidebar-info-box"><br />
+            <div class="thumbnail-box"><img class="thumbnail" src="./public/images/profile.png" alt="Profile picture" />
+            </div>
+            <div class="dev-intro-box">
+                <h5>Sean Crooks</h5>
+                <p>Full Stack Software Developer who studied through Team Treehouse, CodeCademy, and freeCodeCamp.
+                    Highly motivated and independent professional. Actively practicing BSN-RN with 8+ years experience
+                    in acute care settings. Specialty in Medical
+                    and Cardiovascular ICU.</p><a href="/about">Learn More &rarr;</a>
+            </div>
+        </div>
+    </div>
+    <div class="wrapper">
+        <div class="header">
+            <div class="header-info-box"><button class="menu-icon" id="menu-icon" type="button"
+                    data-toggle="my-info"></button>
+                <!-- Used for mobile layout--><span>Sean Crooks</span></div>
+        </div>
+    </div>
 </body>
+<script src="./public/js/script.js"></script>
+
 </html>
